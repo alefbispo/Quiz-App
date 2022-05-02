@@ -2,7 +2,6 @@
 
 import 'package:flutter/material.dart';
 import 'package:quiz_app/lista_perguntas.dart';
-import 'package:quiz_app/pergunta.dart';
 import 'package:quiz_app/questionario.dart';
 import 'package:quiz_app/resultado.dart';
 

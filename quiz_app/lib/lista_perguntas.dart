@@ -1,38 +1,65 @@
- var listaDePergunatas = const [
-    {
-      'texto': 'Qual nossa data oficial? ',
-      'respostas': [
-        {'texto': '16/03/2020', 'pontuacao': 10},
-        {'texto': '02/11/2019', 'pontuacao': 5},
-        {'texto': '15/02/2020', 'pontuacao': 3},
-        {'texto': '16/03/2019', 'pontuacao': 1}
-      ],
-    },
-    {
-      'texto': 'Qual nome da minha cachorra?',
-      'respostas': [
-        {'texto': 'Laylla', 'pontuacao': 3},
-        {'texto': 'Raika', 'pontuacao': 5},
-        {'texto': 'Naylla', 'pontuacao': 10},
-        {'texto': 'Lala', 'pontuacao': 1}
-      ],
-    },
-    {
-      'texto': 'Primeiro lugar que saimos juntos?',
-      'respostas': [
-        {'texto': 'Orlinha por do sol', 'pontuacao': 1},
-        {'texto': 'Shopping', 'pontuacao': 5},
-        {'texto': 'Cinema', 'pontuacao': 3},
-        {'texto': 'Calçadão formosa', 'pontuacao': 10}
-      ],
-    },
-    {
-      'texto': 'Primeiro filme que assistimos juntos?',
-      'respostas': [
-        {'texto': 'Captão America', 'pontuacao': 3},
-        {'texto': 'Toc Toc', 'pontuacao': 5},
-        {'texto': 'Onde esta segunda', 'pontuacao': 10},
-        {'texto': 'Vingadores', 'pontuacao': 1}
-      ],
-    },
-  ];
+List<Map<String, Object>> listaDePergunatas = const [
+  {
+    'texto': 'Meu nome inteiro? ',
+    'respostas': [
+      {'texto': 'Alef Bispo Santos', 'pontuacao': 0},
+      {'texto': 'Alef Santos', 'pontuacao': 0},
+      {'texto': 'Alife Bispo dos Santos', 'pontuacao': 0},
+      {'texto': 'Alef Bispo dos Santos', 'pontuacao': 1}
+    ],
+  },
+  {
+    'texto': 'Qual minha idade?',
+    'respostas': [
+      {'texto': '25', 'pontuacao': 0},
+      {'texto': '28', 'pontuacao': 1},
+      {'texto': '30', 'pontuacao': 0},
+      {'texto': '27', 'pontuacao': 0}
+    ],
+  },
+  {
+    'texto': 'Nome dos meus pais?',
+    'respostas': [
+      {'texto': 'Everton e Carmen', 'pontuacao': 1},
+      {'texto': 'Evertom e Marilia', 'pontuacao': 0},
+      {'texto': 'Everton e Maria', 'pontuacao': 1},
+      {'texto': 'Vertinho e Bebé', 'pontuacao': 0}
+    ],
+  },
+  {
+    'texto': 'Cidade que nasci?',
+    'respostas': [
+      {'texto': 'Rio de Janeiro', 'pontuacao': 0},
+      {'texto': 'São Caetano', 'pontuacao': 0},
+      {'texto': 'São Paulo', 'pontuacao': 1},
+      {'texto': 'Sergipe', 'pontuacao': 0}
+    ],
+  },
+  {
+    'texto': 'Personagem preferido Marvel?',
+    'respostas': [
+      {'texto': 'Hulk', 'pontuacao': 0},
+      {'texto': 'Capitão America', 'pontuacao': 0},
+      {'texto': 'Homen Aranha', 'pontuacao': 0},
+      {'texto': 'Dr Estranho', 'pontuacao': 1}
+    ],
+  },
+  {
+    'texto': 'Animaçõa preferida?',
+    'respostas': [
+      {'texto': 'Rick and Morty', 'pontuacao': 1},
+      {'texto': 'Final Space', 'pontuacao': 0},
+      {'texto': 'BoJack Horseman', 'pontuacao': 0},
+      {'texto': 'The Simpsons', 'pontuacao': 0}
+    ],
+  },
+  {
+    'texto': 'Objetivo Profissional?',
+    'respostas': [
+      {'texto': 'Desenvolvedor de Sites', 'pontuacao': 0},
+      {'texto': 'Desenvolvedor de jogos', 'pontuacao': 0},
+      {'texto': 'Desenvolvedor Mobile', 'pontuacao': 1},
+      {'texto': 'Professor de Computação', 'pontuacao': 0}
+    ],
+  },
+];

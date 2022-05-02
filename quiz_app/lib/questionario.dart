@@ -27,7 +27,7 @@ class Questionario extends StatelessWidget {
         Pergunta(perguntas[perguntaSelecionada]['texto'].toString()),
         ...respostas.map((resp) {
           return Respostas(
-            resp['testo'].toString(),
+            resp['texto'].toString(),
             () => quandoResponder(int.parse(resp['pontuacao'].toString())),
           );
         }).toList(),
