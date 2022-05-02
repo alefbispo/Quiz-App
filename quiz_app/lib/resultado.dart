@@ -1,6 +1,7 @@
 // ignore_for_file: prefer_const_constructors
 
 import 'package:flutter/material.dart';
+import 'package:quiz_app/lista_perguntas.dart';
 
 class Resultado extends StatelessWidget {
   final int pontuacao;
@@ -9,7 +10,14 @@ class Resultado extends StatelessWidget {
       : super(key: key);
 
   String get fraseResultado {
-    return 'Pontuação : ' + pontuacao.toString();
+    if (pontuacao == listaDePergunatas.length) {
+      return '*** ACERTOU TUDO!!! *** \nSE ME CONHECE MESMO EM =D';
+    }
+    return 'Acertou ' +
+        pontuacao.toString() +
+        '\nDe ' +
+        listaDePergunatas.length.toString();
+    
   }
 
   @override

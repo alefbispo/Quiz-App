@@ -52,12 +52,15 @@ class _QuizAppState extends State<QuizApp> {
           ),
         ),
         body: temPerguntaSelecionada
-            ? Questionario(
+            ?
+            Questionario(
                 perguntas: listaDePergunatas,
                 perguntaSelecionada: perguntaSelecionada,
                 quandoResponder: responder,
+                
               )
             : Resultado(pontuacaoTotal, reiniciarQuestionario),
+            
       ),
     );
   }
