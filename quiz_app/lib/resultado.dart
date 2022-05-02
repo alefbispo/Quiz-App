@@ -12,6 +12,8 @@ class Resultado extends StatelessWidget {
   String get fraseResultado {
     if (pontuacao == listaDePergunatas.length) {
       return '*** ACERTOU TUDO!!! *** \nSE ME CONHECE MESMO EM =D';
+    }if (pontuacao == 0) {
+      return 'NÃO ACERTOU UMA...  \nSEM COMENTARIOS...';
     }
     return 'Acertou ' +
         pontuacao.toString() +

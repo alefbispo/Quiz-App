@@ -12,7 +12,7 @@ class Respostas extends StatelessWidget {
       width: double.infinity,
       child: ElevatedButton(
         style: ElevatedButton.styleFrom(
-          primary: Colors.red,
+          primary: Colors.deepOrange,
         ),
         child: Text(
           texto,
